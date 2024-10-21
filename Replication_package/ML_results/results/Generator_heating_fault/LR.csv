@@ -1,0 +1,88 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+Relation:     GF_ML_res
+Instances:    853
+Attributes:   13
+              AvR
+              MiR
+              MiP
+              AvN
+              MaRP
+              AvBA
+              Sys1inv1
+              BB
+              BC
+              TT
+              RTUAvS1
+              Istd
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                 Class
+Variable           NGF
+======================
+AvR            -20.721
+MiR             7.8909
+MiP             0.0891
+AvN             0.0561
+MaRP            1.3908
+AvBA            -0.739
+Sys1inv1         1.108
+BB            -11.8821
+BC            -28.6471
+TT              -2.331
+RTUAvS1        -0.0383
+Istd            3.0342
+Intercept    6961.8473
+
+
+Odds Ratios...
+                 Class
+Variable           NGF
+======================
+AvR                  0
+MiR          2672.9619
+MiP             1.0932
+AvN             1.0577
+MaRP            4.0182
+AvBA            0.4776
+Sys1inv1        3.0284
+BB                   0
+BC                   0
+TT              0.0972
+RTUAvS1         0.9625
+Istd           20.7853
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         846               99.1794 %
+Incorrectly Classified Instances         7                0.8206 %
+Kappa statistic                          0.9152
+Mean absolute error                      0.0082
+Root mean squared error                  0.0905
+Relative absolute error                  8.5152 %
+Root relative squared error             41.3563 %
+Total Number of Instances              853     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.995    0.070    0.996      0.995    0.996      0.915    0.985     0.999     NGF
+                 0.930    0.005    0.909      0.930    0.920      0.915    0.996     0.927     GF
+Weighted Avg.    0.992    0.066    0.992      0.992    0.992      0.915    0.985     0.995     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 806   4 |   a = NGF
+   3  40 |   b = GF
+

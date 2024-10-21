@@ -1,0 +1,130 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     GF_ML_res
+Instances:    853
+Attributes:   13
+              AvR
+              MiR
+              MiP
+              AvN
+              MaRP
+              AvBA
+              Sys1inv1
+              BB
+              BC
+              TT
+              RTUAvS1
+              Istd
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                   Class
+Attribute            NGF        GF
+                  (0.95)    (0.05)
+===================================
+AvR
+  mean             9.0529    9.0673
+  std. dev.        4.4793    2.1209
+  weight sum          810        43
+  precision        0.0312    0.0312
+
+MiR
+  mean             7.4279    7.9265
+  std. dev.       23.3007    4.0059
+  weight sum          810        43
+  precision        1.4628    1.4628
+
+MiP
+  mean           748.3672         0
+  std. dev.     1016.9829    1.3311
+  weight sum          810        43
+  precision        7.9867    7.9867
+
+AvN
+  mean            64.9119   -2.2347
+  std. dev.      289.4894  135.7636
+  weight sum          810        43
+  precision        3.8438    3.8438
+
+MaRP
+  mean           262.5786         0
+  std. dev.      328.0349    0.7261
+  weight sum          810        43
+  precision        4.3566    4.3566
+
+AvBA
+  mean            19.6846   24.3059
+  std. dev.       24.8553   14.7575
+  weight sum          810        43
+  precision        0.2732    0.2732
+
+Sys1inv1
+  mean            29.9819   21.9659
+  std. dev.        6.5394     3.708
+  weight sum          810        43
+  precision        1.8667    1.8667
+
+BB
+  mean           165.3901  165.9302
+  std. dev.        0.4928    0.2548
+  weight sum          810        43
+  precision             1         1
+
+BC
+  mean            166.142  166.5116
+  std. dev.        0.4877    0.5444
+  weight sum          810        43
+  precision             1         1
+
+TT
+  mean            24.5741   16.3488
+  std. dev.        6.4266    5.6151
+  weight sum          810        43
+  precision             1         1
+
+RTUAvS1
+  mean          3039.5509 2988.6453
+  std. dev.      113.5009  190.2306
+  weight sum          810        43
+  precision         45.75     45.75
+
+Istd
+  mean             1.7115    1.1464
+  std. dev.          0.96     0.279
+  weight sum          810        43
+  precision         0.077     0.077
+
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         783               91.7937 %
+Incorrectly Classified Instances        70                8.2063 %
+Kappa statistic                          0.5036
+Mean absolute error                      0.0813
+Root mean squared error                  0.2742
+Relative absolute error                 84.0371 %
+Root relative squared error            125.3075 %
+Total Number of Instances              853     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.916    0.047    0.997      0.916    0.955      0.570    0.990     0.999     NGF
+                 0.953    0.084    0.376      0.953    0.539      0.570    0.990     0.928     GF
+Weighted Avg.    0.918    0.048    0.966      0.918    0.934      0.570    0.990     0.996     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 742  68 |   a = NGF
+   2  41 |   b = GF
+

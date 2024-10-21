@@ -1,0 +1,65 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     GF_ML_res
+Instances:    853
+Attributes:   13
+              AvR
+              MiR
+              MiP
+              AvN
+              MaRP
+              AvBA
+              Sys1inv1
+              BB
+              BC
+              TT
+              RTUAvS1
+              Istd
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+MaRP <= 0
+|   AvR <= 3.77: NGF (129.0/2.0)
+|   AvR > 3.77
+|   |   AvR <= 9.99: GF (40.0)
+|   |   AvR > 9.99: NGF (3.0/1.0)
+MaRP > 0: NGF (681.0)
+
+Number of Leaves  : 	4
+
+Size of the tree : 	7
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         846               99.1794 %
+Incorrectly Classified Instances         7                0.8206 %
+Kappa statistic                          0.9093
+Mean absolute error                      0.0118
+Root mean squared error                  0.0901
+Relative absolute error                 12.2024 %
+Root relative squared error             41.1629 %
+Total Number of Instances              853     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.999    0.140    0.993      0.999    0.996      0.911    0.954     0.996     NGF
+                 0.860    0.001    0.974      0.860    0.914      0.911    0.954     0.883     GF
+Weighted Avg.    0.992    0.133    0.992      0.992    0.992      0.911    0.954     0.990     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 809   1 |   a = NGF
+   6  37 |   b = GF
+

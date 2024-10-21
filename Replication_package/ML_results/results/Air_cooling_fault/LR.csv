@@ -1,0 +1,88 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+Relation:     AF_ML_res
+Instances:    853
+Attributes:   13
+              AvR
+              MiR
+              MiP
+              AvN
+              MaRP
+              AvBA
+              Sys1inv1
+              BB
+              BC
+              TT
+              RTUAvS1
+              Istd
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+               Class
+Variable         NAF
+====================
+AvR           0.5884
+MiR           0.0018
+MiP          -0.0005
+AvN            0.002
+MaRP          0.0012
+AvBA          0.0288
+Sys1inv1      0.1207
+BB            0.2438
+BC           -0.3272
+TT           -0.4115
+RTUAvS1      -0.0052
+Istd          1.1378
+Intercept    32.0711
+
+
+Odds Ratios...
+               Class
+Variable         NAF
+====================
+AvR           1.8011
+MiR           1.0018
+MiP           0.9995
+AvN            1.002
+MaRP          1.0012
+AvBA          1.0292
+Sys1inv1      1.1283
+BB            1.2761
+BC             0.721
+TT            0.6627
+RTUAvS1       0.9948
+Istd          3.1199
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         791               92.7315 %
+Incorrectly Classified Instances        62                7.2685 %
+Kappa statistic                          0.3317
+Mean absolute error                      0.1005
+Root mean squared error                  0.2331
+Relative absolute error                 74.0036 %
+Root relative squared error             89.772  %
+Total Number of Instances              853     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.977    0.710    0.946      0.977    0.961      0.346    0.902     0.991     NAF
+                 0.290    0.023    0.500      0.290    0.367      0.346    0.902     0.387     AF
+Weighted Avg.    0.927    0.660    0.914      0.927    0.918      0.346    0.902     0.947     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 773  18 |   a = NAF
+  44  18 |   b = AF
+

@@ -1,0 +1,91 @@
+fold,model,class,recall,fpr,auc,accuracy,best_params
+1,RandomForest,0,0.909090909,1,0.823232323,0.5,"{'n_estimators': 50, 'max_depth': None, 'max_features': 'log2'}"
+1,RandomForest,1,0,0.090909091,0.823232323,0.5,"{'n_estimators': 50, 'max_depth': None, 'max_features': 'log2'}"
+1,RandomForest,micro_average,0.5,0.5,0.823232323,0.5,"{'n_estimators': 50, 'max_depth': None, 'max_features': 'log2'}"
+1,DecisionTree,0,0.818181818,1,0.409090909,0.45,"{'max_depth': None, 'max_features': 'sqrt'}"
+1,DecisionTree,1,0,0.181818182,0.409090909,0.45,"{'max_depth': None, 'max_features': 'sqrt'}"
+1,DecisionTree,micro_average,0.45,0.55,0.409090909,0.45,"{'max_depth': None, 'max_features': 'sqrt'}"
+1,KNN,0,1,1,0.545454545,0.55,"{'n_neighbors': 5, 'weights': 'distance'}"
+1,KNN,1,0,0,0.545454545,0.55,"{'n_neighbors': 5, 'weights': 'distance'}"
+1,KNN,micro_average,0.55,0.45,0.545454545,0.55,"{'n_neighbors': 5, 'weights': 'distance'}"
+1,NaiveBayes,0,1,1,0.585858586,0.55,{'var_smoothing': 1e-09}
+1,NaiveBayes,1,0,0,0.585858586,0.55,{'var_smoothing': 1e-09}
+1,NaiveBayes,micro_average,0.55,0.45,0.585858586,0.55,{'var_smoothing': 1e-09}
+1,LogisticRegression,0,1,1,0.474747475,0.55,{'C': 0.1}
+1,LogisticRegression,1,0,0,0.474747475,0.55,{'C': 0.1}
+1,LogisticRegression,micro_average,0.55,0.45,0.474747475,0.55,{'C': 0.1}
+1,SVM,0,1,0.777777778,0.666666667,0.65,{'C': 0.1}
+1,SVM,1,0.222222222,0,0.666666667,0.65,{'C': 0.1}
+1,SVM,micro_average,0.65,0.35,0.666666667,0.65,{'C': 0.1}
+2,RandomForest,0,0.888888889,0.545454545,0.833333333,0.65,"{'n_estimators': 50, 'max_depth': None, 'max_features': 'log2'}"
+2,RandomForest,1,0.454545455,0.111111111,0.833333333,0.65,"{'n_estimators': 50, 'max_depth': None, 'max_features': 'log2'}"
+2,RandomForest,micro_average,0.65,0.35,0.833333333,0.65,"{'n_estimators': 50, 'max_depth': None, 'max_features': 'log2'}"
+2,DecisionTree,0,1,0.545454545,0.727272727,0.7,"{'max_depth': None, 'max_features': None}"
+2,DecisionTree,1,0.454545455,0,0.727272727,0.7,"{'max_depth': None, 'max_features': None}"
+2,DecisionTree,micro_average,0.7,0.3,0.727272727,0.7,"{'max_depth': None, 'max_features': None}"
+2,KNN,0,0.444444444,0.636363636,0.5,0.4,"{'n_neighbors': 3, 'weights': 'uniform'}"
+2,KNN,1,0.363636364,0.555555556,0.5,0.4,"{'n_neighbors': 3, 'weights': 'uniform'}"
+2,KNN,micro_average,0.4,0.6,0.5,0.4,"{'n_neighbors': 3, 'weights': 'uniform'}"
+2,NaiveBayes,0,0.777777778,0.909090909,0.505050505,0.4,{'var_smoothing': 1e-07}
+2,NaiveBayes,1,0.090909091,0.222222222,0.505050505,0.4,{'var_smoothing': 1e-07}
+2,NaiveBayes,micro_average,0.4,0.6,0.505050505,0.4,{'var_smoothing': 1e-07}
+2,LogisticRegression,0,0.777777778,0.636363636,0.838383838,0.55,{'C': 1.0}
+2,LogisticRegression,1,0.363636364,0.222222222,0.838383838,0.55,{'C': 1.0}
+2,LogisticRegression,micro_average,0.55,0.45,0.838383838,0.55,{'C': 1.0}
+2,SVM,0,0.777777778,0.545454545,0.525252525,0.6,{'C': 0.1}
+2,SVM,1,0.454545455,0.222222222,0.525252525,0.6,{'C': 0.1}
+2,SVM,micro_average,0.6,0.4,0.525252525,0.6,{'C': 0.1}
+3,RandomForest,0,1,0.555555556,1,0.5,"{'n_estimators': 50, 'max_depth': None, 'max_features': 'sqrt'}"
+3,RandomForest,1,0.444444444,0,1,0.5,"{'n_estimators': 50, 'max_depth': None, 'max_features': 'sqrt'}"
+3,RandomForest,micro_average,0.5,0.5,1,0.5,"{'n_estimators': 50, 'max_depth': None, 'max_features': 'sqrt'}"
+3,DecisionTree,0,1,0.5,0.75,0.55,"{'max_depth': None, 'max_features': None}"
+3,DecisionTree,1,0.5,0,0.75,0.55,"{'max_depth': None, 'max_features': None}"
+3,DecisionTree,micro_average,0.55,0.45,0.75,0.55,"{'max_depth': None, 'max_features': None}"
+3,KNN,0,0,0,0.75,0.9,"{'n_neighbors': 5, 'weights': 'distance'}"
+3,KNN,1,1,1,0.75,0.9,"{'n_neighbors': 5, 'weights': 'distance'}"
+3,KNN,micro_average,0.9,0.1,0.75,0.9,"{'n_neighbors': 5, 'weights': 'distance'}"
+3,NaiveBayes,0,1,0.222222222,0.916666667,0.8,{'var_smoothing': 1e-09}
+3,NaiveBayes,1,0.777777778,0,0.916666667,0.8,{'var_smoothing': 1e-09}
+3,NaiveBayes,micro_average,0.8,0.2,0.916666667,0.8,{'var_smoothing': 1e-09}
+3,LogisticRegression,0,0,0.111111111,0.472222222,0.8,{'C': 0.1}
+3,LogisticRegression,1,0.888888889,1,0.472222222,0.8,{'C': 0.1}
+3,LogisticRegression,micro_average,0.8,0.2,0.472222222,0.8,{'C': 0.1}
+3,SVM,0,0,0,0.833333333,0.9,{'C': 0.1}
+3,SVM,1,1,1,0.833333333,0.9,{'C': 0.1}
+3,SVM,micro_average,0.9,0.1,0.833333333,0.9,{'C': 0.1}
+4,RandomForest,0,0.5,0.333333333,0.785714286,0.55,"{'n_estimators': 100, 'max_depth': None, 'max_features': 'sqrt'}"
+4,RandomForest,1,0.666666667,0.5,0.785714286,0.55,"{'n_estimators': 100, 'max_depth': None, 'max_features': 'sqrt'}"
+4,RandomForest,micro_average,0.55,0.45,0.785714286,0.55,"{'n_estimators': 100, 'max_depth': None, 'max_features': 'sqrt'}"
+4,DecisionTree,0,0.714285714,0.833333333,0.595238095,0.55,"{'max_depth': None, 'max_features': 'log2'}"
+4,DecisionTree,1,0.166666667,0.285714286,0.595238095,0.55,"{'max_depth': None, 'max_features': 'log2'}"
+4,DecisionTree,micro_average,0.55,0.45,0.595238095,0.55,"{'max_depth': None, 'max_features': 'log2'}"
+4,KNN,0,0,0,0.678571429,0.3,"{'n_neighbors': 5, 'weights': 'distance'}"
+4,KNN,1,1,1,0.678571429,0.3,"{'n_neighbors': 5, 'weights': 'distance'}"
+4,KNN,micro_average,0.3,0.7,0.678571429,0.3,"{'n_neighbors': 5, 'weights': 'distance'}"
+4,NaiveBayes,0,0,0,0.75,0.3,{'var_smoothing': 1e-08}
+4,NaiveBayes,1,1,1,0.75,0.3,{'var_smoothing': 1e-08}
+4,NaiveBayes,micro_average,0.3,0.7,0.75,0.3,{'var_smoothing': 1e-08}
+4,LogisticRegression,0,0,0,0.69047619,0.3,{'C': 1.0}
+4,LogisticRegression,1,1,1,0.69047619,0.3,{'C': 1.0}
+4,LogisticRegression,micro_average,0.3,0.7,0.69047619,0.3,{'C': 1.0}
+4,SVM,0,0,0,0.761904762,0.3,{'C': 0.1}
+4,SVM,1,1,1,0.761904762,0.3,{'C': 0.1}
+4,SVM,micro_average,0.3,0.7,0.761904762,0.3,{'C': 0.1}
+5,RandomForest,0,0.857142857,0.833333333,0.738095238,0.65,"{'n_estimators': 100, 'max_depth': None, 'max_features': 'log2'}"
+5,RandomForest,1,0.166666667,0.142857143,0.738095238,0.65,"{'n_estimators': 100, 'max_depth': None, 'max_features': 'log2'}"
+5,RandomForest,micro_average,0.65,0.35,0.738095238,0.65,"{'n_estimators': 100, 'max_depth': None, 'max_features': 'log2'}"
+5,DecisionTree,0,0.928571429,0.833333333,0.547619048,0.7,"{'max_depth': None, 'max_features': None}"
+5,DecisionTree,1,0.166666667,0.071428571,0.547619048,0.7,"{'max_depth': None, 'max_features': None}"
+5,DecisionTree,micro_average,0.7,0.3,0.547619048,0.7,"{'max_depth': None, 'max_features': None}"
+5,KNN,0,1,1,0.5,0.7,"{'n_neighbors': 3, 'weights': 'uniform'}"
+5,KNN,1,0,0,0.5,0.7,"{'n_neighbors': 3, 'weights': 'uniform'}"
+5,KNN,micro_average,0.7,0.3,0.5,0.7,"{'n_neighbors': 3, 'weights': 'uniform'}"
+5,NaiveBayes,0,1,1,0.702380952,0.7,{'var_smoothing': 1e-07}
+5,NaiveBayes,1,0,0,0.702380952,0.7,{'var_smoothing': 1e-07}
+5,NaiveBayes,micro_average,0.7,0.3,0.702380952,0.7,{'var_smoothing': 1e-07}
+5,LogisticRegression,0,0,0,0.583333333,0.3,{'C': 0.1}
+5,LogisticRegression,1,1,1,0.583333333,0.3,{'C': 0.1}
+5,LogisticRegression,micro_average,0.3,0.7,0.583333333,0.3,{'C': 0.1}
+5,SVM,0,1,0.833333333,0.654761905,0.75,{'C': 0.1}
+5,SVM,1,0.166666667,0,0.654761905,0.75,{'C': 0.1}
+5,SVM,micro_average,0.75,0.25,0.654761905,0.75,{'C': 0.1}

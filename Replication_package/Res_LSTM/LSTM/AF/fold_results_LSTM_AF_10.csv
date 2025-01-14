@@ -1,0 +1,16 @@
+fold,model,class,recall,fpr,auc,accuracy,best_params,training_time
+1,LSTM,0,0.636363636,0.888888889,0.727272727,0.4,"{'batch_size': 64, 'epochs': 10, 'learning_rate': 0.001, 'units': 32}",1.313401461
+1,LSTM,1,0.111111111,0.363636364,0.727272727,0.4,"{'batch_size': 64, 'epochs': 10, 'learning_rate': 0.001, 'units': 32}",1.313401461
+1,LSTM,micro_average,0.4,0.484375,0.727272727,0.4,"{'batch_size': 64, 'epochs': 10, 'learning_rate': 0.001, 'units': 32}",1.313401461
+2,LSTM,0,0.777777778,0.363636364,0.808080808,0.7,"{'batch_size': 64, 'epochs': 10, 'learning_rate': 0.001, 'units': 64}",1.312481165
+2,LSTM,1,0.636363636,0.222222222,0.808080808,0.7,"{'batch_size': 64, 'epochs': 10, 'learning_rate': 0.001, 'units': 64}",1.312481165
+2,LSTM,micro_average,0.7,0.403125,0.808080808,0.7,"{'batch_size': 64, 'epochs': 10, 'learning_rate': 0.001, 'units': 64}",1.312481165
+3,LSTM,0,1,0.222222222,1,0.8,"{'batch_size': 32, 'epochs': 10, 'learning_rate': 0.001, 'units': 64}",1.156254053
+3,LSTM,1,0.777777778,0,1,0.8,"{'batch_size': 32, 'epochs': 10, 'learning_rate': 0.001, 'units': 64}",1.156254053
+3,LSTM,micro_average,0.8,0.284375,1,0.8,"{'batch_size': 32, 'epochs': 10, 'learning_rate': 0.001, 'units': 64}",1.156254053
+4,LSTM,0,0.357142857,0.333333333,0.761904762,0.45,"{'batch_size': 64, 'epochs': 10, 'learning_rate': 0.001, 'units': 32}",1.250013351
+4,LSTM,1,0.666666667,0.642857143,0.761904762,0.45,"{'batch_size': 64, 'epochs': 10, 'learning_rate': 0.001, 'units': 32}",1.250013351
+4,LSTM,micro_average,0.45,0.478125,0.761904762,0.45,"{'batch_size': 64, 'epochs': 10, 'learning_rate': 0.001, 'units': 32}",1.250013351
+5,LSTM,0,0.285714286,0.333333333,0.80952381,0.4,"{'batch_size': 32, 'epochs': 10, 'learning_rate': 0.01, 'units': 32}",1.26563859
+5,LSTM,1,0.666666667,0.714285714,0.80952381,0.4,"{'batch_size': 32, 'epochs': 10, 'learning_rate': 0.01, 'units': 32}",1.26563859
+5,LSTM,micro_average,0.4,0.39375,0.80952381,0.4,"{'batch_size': 32, 'epochs': 10, 'learning_rate': 0.01, 'units': 32}",1.26563859

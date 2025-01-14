@@ -1,0 +1,4 @@
+model,class,recall_mean,fpr_mean,auc_mean,accuracy_mean,best_params,training_time_mean
+LSTM,0,1.0,0.27272727272727276,0.993939393939394,0.8571428571428571,"{'batch_size': 32, 'epochs': 20, 'learning_rate': 0.001, 'units': 32}",1.1681679884592693
+LSTM,1,0.7272727272727272,0.0,0.993939393939394,0.8571428571428571,"{'batch_size': 32, 'epochs': 20, 'learning_rate': 0.001, 'units': 32}",1.1681679884592693
+LSTM,micro_average,0.8571428571428571,0.21317460317460316,0.993939393939394,0.8571428571428571,"{'batch_size': 32, 'epochs': 20, 'learning_rate': 0.001, 'units': 32}",1.1681679884592693

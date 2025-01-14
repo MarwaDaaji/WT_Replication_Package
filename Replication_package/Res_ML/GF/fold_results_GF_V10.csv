@@ -1,0 +1,55 @@
+fold,model,class,recall,fpr,auc,accuracy,best_params
+1,RandomForest,0,1,1,0.990909091,0.476190476,"{'n_estimators': 100, 'max_depth': None, 'max_features': 'sqrt'}"
+1,RandomForest,1,0,0,0.990909091,0.476190476,"{'n_estimators': 100, 'max_depth': None, 'max_features': 'sqrt'}"
+1,RandomForest,micro_average,0.476190476,0.523809524,0.990909091,0.476190476,"{'n_estimators': 100, 'max_depth': None, 'max_features': 'sqrt'}"
+1,DecisionTree,0,1,1,0.5,0.476190476,"{'max_depth': None, 'max_features': 'sqrt'}"
+1,DecisionTree,1,0,0,0.5,0.476190476,"{'max_depth': None, 'max_features': 'sqrt'}"
+1,DecisionTree,micro_average,0.476190476,0.523809524,0.5,0.476190476,"{'max_depth': None, 'max_features': 'sqrt'}"
+1,KNN,0,1,1,0.5,0.476190476,"{'n_neighbors': 3, 'weights': 'uniform'}"
+1,KNN,1,0,0,0.5,0.476190476,"{'n_neighbors': 3, 'weights': 'uniform'}"
+1,KNN,micro_average,0.476190476,0.523809524,0.5,0.476190476,"{'n_neighbors': 3, 'weights': 'uniform'}"
+1,NaiveBayes,0,1,1,0.5,0.476190476,{'var_smoothing': 1e-09}
+1,NaiveBayes,1,0,0,0.5,0.476190476,{'var_smoothing': 1e-09}
+1,NaiveBayes,micro_average,0.476190476,0.523809524,0.5,0.476190476,{'var_smoothing': 1e-09}
+1,LogisticRegression,0,1,1,0.918181818,0.476190476,{'C': 0.1}
+1,LogisticRegression,1,0,0,0.918181818,0.476190476,{'C': 0.1}
+1,LogisticRegression,micro_average,0.476190476,0.523809524,0.918181818,0.476190476,{'C': 0.1}
+1,SVM,0,1,1,0.427272727,0.476190476,{'C': 0.1}
+1,SVM,1,0,0,0.427272727,0.476190476,{'C': 0.1}
+1,SVM,micro_average,0.476190476,0.523809524,0.427272727,0.476190476,{'C': 0.1}
+2,RandomForest,0,0.75,0,1,0.96,"{'n_estimators': 50, 'max_depth': None, 'max_features': 'sqrt'}"
+2,RandomForest,1,1,0.25,1,0.96,"{'n_estimators': 50, 'max_depth': None, 'max_features': 'sqrt'}"
+2,RandomForest,micro_average,0.96,0.04,1,0.96,"{'n_estimators': 50, 'max_depth': None, 'max_features': 'sqrt'}"
+2,DecisionTree,0,1,1,0.875,0.16,"{'max_depth': None, 'max_features': 'log2'}"
+2,DecisionTree,1,0,0,0.875,0.16,"{'max_depth': None, 'max_features': 'log2'}"
+2,DecisionTree,micro_average,0.16,0.84,0.875,0.16,"{'max_depth': None, 'max_features': 'log2'}"
+2,KNN,0,0,0,0.5,0.84,"{'n_neighbors': 3, 'weights': 'uniform'}"
+2,KNN,1,1,1,0.5,0.84,"{'n_neighbors': 3, 'weights': 'uniform'}"
+2,KNN,micro_average,0.84,0.16,0.5,0.84,"{'n_neighbors': 3, 'weights': 'uniform'}"
+2,NaiveBayes,0,0.5,0,1,0.92,{'var_smoothing': 1e-07}
+2,NaiveBayes,1,1,0.5,1,0.92,{'var_smoothing': 1e-07}
+2,NaiveBayes,micro_average,0.92,0.08,1,0.92,{'var_smoothing': 1e-07}
+2,LogisticRegression,0,0.5,0,0.75,0.92,{'C': 0.1}
+2,LogisticRegression,1,1,0.5,0.75,0.92,{'C': 0.1}
+2,LogisticRegression,micro_average,0.92,0.08,0.75,0.92,{'C': 0.1}
+2,SVM,0,0.5,0,1,0.92,{'C': 0.1}
+2,SVM,1,1,0.5,1,0.92,{'C': 0.1}
+2,SVM,micro_average,0.92,0.08,1,0.92,{'C': 0.1}
+3,RandomForest,0,1,0,1,1,"{'n_estimators': 50, 'max_depth': None, 'max_features': 'sqrt'}"
+3,RandomForest,1,1,0,1,1,"{'n_estimators': 50, 'max_depth': None, 'max_features': 'sqrt'}"
+3,RandomForest,micro_average,1,0,1,1,"{'n_estimators': 50, 'max_depth': None, 'max_features': 'sqrt'}"
+3,DecisionTree,0,1,0,1,1,"{'max_depth': None, 'max_features': 'sqrt'}"
+3,DecisionTree,1,1,0,1,1,"{'max_depth': None, 'max_features': 'sqrt'}"
+3,DecisionTree,micro_average,1,0,1,1,"{'max_depth': None, 'max_features': 'sqrt'}"
+3,KNN,0,0,0,0.71875,0.238095238,"{'n_neighbors': 3, 'weights': 'uniform'}"
+3,KNN,1,1,1,0.71875,0.238095238,"{'n_neighbors': 3, 'weights': 'uniform'}"
+3,KNN,micro_average,0.238095238,0.761904762,0.71875,0.238095238,"{'n_neighbors': 3, 'weights': 'uniform'}"
+3,NaiveBayes,0,0,0,0.975,0.238095238,{'var_smoothing': 1e-09}
+3,NaiveBayes,1,1,1,0.975,0.238095238,{'var_smoothing': 1e-09}
+3,NaiveBayes,micro_average,0.238095238,0.761904762,0.975,0.238095238,{'var_smoothing': 1e-09}
+3,LogisticRegression,0,0.875,0,0.95,0.904761905,{'C': 0.1}
+3,LogisticRegression,1,1,0.125,0.95,0.904761905,{'C': 0.1}
+3,LogisticRegression,micro_average,0.904761905,0.095238095,0.95,0.904761905,{'C': 0.1}
+3,SVM,0,0.8125,0,0.9375,0.857142857,{'C': 0.1}
+3,SVM,1,1,0.1875,0.9375,0.857142857,{'C': 0.1}
+3,SVM,micro_average,0.857142857,0.142857143,0.9375,0.857142857,{'C': 0.1}

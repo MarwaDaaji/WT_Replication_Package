@@ -1,0 +1,13 @@
+algo,metric,median,indifferent
+nsga2,Hypervolume,0.9782608695652174,[spea2-ibea-nsga3]
+nsga2,GenerationalDistance,0.0,[spea2-ibea-nsga3]
+nsga2,Spacing,0.0,[spea2-ibea-nsga3]
+spea2,Hypervolume,0.9834307992202729,[nsga2-ibea-nsga3]
+spea2,GenerationalDistance,0.0,[nsga2-ibea-nsga3]
+spea2,Spacing,0.0,[nsga2-ibea-nsga3]
+ibea,Hypervolume,0.9668615984405458,[nsga2-spea2-nsga3]
+ibea,GenerationalDistance,0.0,[nsga2-spea2-nsga3]
+ibea,Spacing,0.0,[nsga2-spea2-nsga3]
+nsga3,Hypervolume,0.9565217391304348,[nsga2-spea2-ibea]
+nsga3,GenerationalDistance,0.0,[nsga2-spea2-ibea]
+nsga3,Spacing,0.0,[nsga2-spea2-ibea]

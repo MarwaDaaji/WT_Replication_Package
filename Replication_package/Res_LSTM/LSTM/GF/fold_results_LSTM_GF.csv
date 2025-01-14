@@ -1,0 +1,10 @@
+fold,model,class,recall,fpr,auc,accuracy,best_params,training_time
+1,LSTM,0,1,0.818181818,0.981818182,0.571428571,"{'batch_size': 32, 'epochs': 20, 'learning_rate': 0.001, 'units': 32}",1.142066717
+1,LSTM,1,0.181818182,0,0.981818182,0.571428571,"{'batch_size': 32, 'epochs': 20, 'learning_rate': 0.001, 'units': 32}",1.142066717
+1,LSTM,micro_average,0.571428571,0.508928571,0.981818182,0.571428571,"{'batch_size': 32, 'epochs': 20, 'learning_rate': 0.001, 'units': 32}",1.142066717
+2,LSTM,0,1,0,1,1,"{'batch_size': 32, 'epochs': 10, 'learning_rate': 0.001, 'units': 32}",1.159036636
+2,LSTM,1,1,0,1,1,"{'batch_size': 32, 'epochs': 10, 'learning_rate': 0.001, 'units': 32}",1.159036636
+2,LSTM,micro_average,1,0.0175,1,1,"{'batch_size': 32, 'epochs': 10, 'learning_rate': 0.001, 'units': 32}",1.159036636
+3,LSTM,0,1,0,1,1,"{'batch_size': 32, 'epochs': 10, 'learning_rate': 0.001, 'units': 32}",1.203400612
+3,LSTM,1,1,0,1,1,"{'batch_size': 32, 'epochs': 10, 'learning_rate': 0.001, 'units': 32}",1.203400612
+3,LSTM,micro_average,1,0.113095238,1,1,"{'batch_size': 32, 'epochs': 10, 'learning_rate': 0.001, 'units': 32}",1.203400612
